@@ -1,0 +1,68 @@
+/* *基本按钮 */
+.button1{
+	float: left;
+	color: #fff;
+	font-family: "微软雅黑";
+	margin: 10px;
+	width: 200px;
+	height: 40px;
+	line-height: 40px;
+	border:1px solid #1f6a99;
+	text-align: center;
+	background: #2b96d9;
+	border-radius: 5px;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.5);
+}
+
+/* 带渐变背景效果按钮 */
+.button2{
+	float: left;
+	color: #fff;	
+	font-family: "微软雅黑";
+	margin: 10px;
+	width: 200px;
+	height: 40px;
+	line-height: 40px;
+	border:1px solid #1f6a99;
+	text-align: center;
+	background: linear-gradient(#31abf7,#2072a5);
+	border-radius: 5px;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.5);
+
+}
+/* 清除浮动 */
+.clc{
+	clear: both;
+}
+/* 基本方块 */
+.cube{
+	margin: 10px;
+	background-color: #2b96d9;
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+/* 带阴影方块 */
+.cube-shadow{
+	margin-top: 10px;
+	background-color: #2b96d9;
+	width: 100px;
+	height: 100px;
+	float: left;
+	box-shadow: 0 0 0 2px #709b1e,inset 0 0 20px #000,110px 0 0 2px #709b1e;
+}
+/* circle */
+.circle{
+	width: 100px;
+	height: 100px;
+	border: 10px solid #d9331a;
+	border-radius: 50%;
+	background: linear-gradient(		
+		to right bottom,
+		transparent 46%,
+		#d9331a 46%,
+		#d9331a 54%,
+		transparent 54%
+		);
+}
+
